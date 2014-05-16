@@ -68,7 +68,7 @@ case "$1" in
   ;;
 
   help | domains:help)
-    cat <<EOF
+    cat && cat <<EOF
     domains <appname>               # list custom domains for app
     domains:help <appname>          # this help message
     domains:add <appname> DOMAIN    # add a custom domain to app
